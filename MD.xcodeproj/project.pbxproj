@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0879836A1C2CAD3400DEFB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983691C2CAD3400DEFB05 /* main.m */; };
+		0879836D1C2CAD3400DEFB05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0879836C1C2CAD3400DEFB05 /* AppDelegate.m */; };
+		087983701C2CAD3400DEFB05 /* MD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0879836E1C2CAD3400DEFB05 /* MD.xcdatamodeld */; };
+		087983731C2CAD3400DEFB05 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983721C2CAD3400DEFB05 /* MasterViewController.m */; };
+		087983761C2CAD3400DEFB05 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983751C2CAD3400DEFB05 /* DetailViewController.m */; };
+		087983791C2CAD3400DEFB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087983771C2CAD3400DEFB05 /* Main.storyboard */; };
+		0879837B1C2CAD3400DEFB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0879837A1C2CAD3400DEFB05 /* Assets.xcassets */; };
+		0879837E1C2CAD3400DEFB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0879837C1C2CAD3400DEFB05 /* LaunchScreen.storyboard */; };
+		087983891C2CAD3400DEFB05 /* MDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983881C2CAD3400DEFB05 /* MDTests.m */; };
+		087983941C2CAD3400DEFB05 /* MDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983931C2CAD3400DEFB05 /* MDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		087983851C2CAD3400DEFB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0879835D1C2CAD3300DEFB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087983641C2CAD3300DEFB05;
+			remoteInfo = MD;
+		};
+		087983901C2CAD3400DEFB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0879835D1C2CAD3300DEFB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087983641C2CAD3300DEFB05;
+			remoteInfo = MD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087983651C2CAD3300DEFB05 /* MD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087983691C2CAD3400DEFB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0879836B1C2CAD3400DEFB05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0879836C1C2CAD3400DEFB05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0879836F1C2CAD3400DEFB05 /* MD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MD.xcdatamodel; sourceTree = "<group>"; };
+		087983711C2CAD3400DEFB05 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		087983721C2CAD3400DEFB05 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		087983741C2CAD3400DEFB05 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		087983751C2CAD3400DEFB05 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		087983781C2CAD3400DEFB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0879837A1C2CAD3400DEFB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0879837D1C2CAD3400DEFB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0879837F1C2CAD3400DEFB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087983841C2CAD3400DEFB05 /* MDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		087983881C2CAD3400DEFB05 /* MDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTests.m; sourceTree = "<group>"; };
+		0879838A1C2CAD3400DEFB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0879838F1C2CAD3400DEFB05 /* MDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		087983931C2CAD3400DEFB05 /* MDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDUITests.m; sourceTree = "<group>"; };
+		087983951C2CAD3400DEFB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087983621C2CAD3300DEFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087983811C2CAD3400DEFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0879838C1C2CAD3400DEFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0879835C1C2CAD3300DEFB05 = {
+			isa = PBXGroup;
+			children = (
+				087983671C2CAD3400DEFB05 /* MD */,
+				087983871C2CAD3400DEFB05 /* MDTests */,
+				087983921C2CAD3400DEFB05 /* MDUITests */,
+				087983661C2CAD3300DEFB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		087983661C2CAD3300DEFB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				087983651C2CAD3300DEFB05 /* MD.app */,
+				087983841C2CAD3400DEFB05 /* MDTests.xctest */,
+				0879838F1C2CAD3400DEFB05 /* MDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		087983671C2CAD3400DEFB05 /* MD */ = {
+			isa = PBXGroup;
+			children = (
+				0879836B1C2CAD3400DEFB05 /* AppDelegate.h */,
+				0879836C1C2CAD3400DEFB05 /* AppDelegate.m */,
+				087983711C2CAD3400DEFB05 /* MasterViewController.h */,
+				087983721C2CAD3400DEFB05 /* MasterViewController.m */,
+				087983741C2CAD3400DEFB05 /* DetailViewController.h */,
+				087983751C2CAD3400DEFB05 /* DetailViewController.m */,
+				087983771C2CAD3400DEFB05 /* Main.storyboard */,
+				0879837A1C2CAD3400DEFB05 /* Assets.xcassets */,
+				0879837C1C2CAD3400DEFB05 /* LaunchScreen.storyboard */,
+				0879837F1C2CAD3400DEFB05 /* Info.plist */,
+				0879836E1C2CAD3400DEFB05 /* MD.xcdatamodeld */,
+				087983681C2CAD3400DEFB05 /* Supporting Files */,
+			);
+			path = MD;
+			sourceTree = "<group>";
+		};
+		087983681C2CAD3400DEFB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087983691C2CAD3400DEFB05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		087983871C2CAD3400DEFB05 /* MDTests */ = {
+			isa = PBXGroup;
+			children = (
+				087983881C2CAD3400DEFB05 /* MDTests.m */,
+				0879838A1C2CAD3400DEFB05 /* Info.plist */,
+			);
+			path = MDTests;
+			sourceTree = "<group>";
+		};
+		087983921C2CAD3400DEFB05 /* MDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				087983931C2CAD3400DEFB05 /* MDUITests.m */,
+				087983951C2CAD3400DEFB05 /* Info.plist */,
+			);
+			path = MDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		087983641C2CAD3300DEFB05 /* MD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087983981C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MD" */;
+			buildPhases = (
+				087983611C2CAD3300DEFB05 /* Sources */,
+				087983621C2CAD3300DEFB05 /* Frameworks */,
+				087983631C2CAD3300DEFB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MD;
+			productName = MD;
+			productReference = 087983651C2CAD3300DEFB05 /* MD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		087983831C2CAD3400DEFB05 /* MDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0879839B1C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MDTests" */;
+			buildPhases = (
+				087983801C2CAD3400DEFB05 /* Sources */,
+				087983811C2CAD3400DEFB05 /* Frameworks */,
+				087983821C2CAD3400DEFB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087983861C2CAD3400DEFB05 /* PBXTargetDependency */,
+			);
+			name = MDTests;
+			productName = MDTests;
+			productReference = 087983841C2CAD3400DEFB05 /* MDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0879838E1C2CAD3400DEFB05 /* MDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0879839E1C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MDUITests" */;
+			buildPhases = (
+				0879838B1C2CAD3400DEFB05 /* Sources */,
+				0879838C1C2CAD3400DEFB05 /* Frameworks */,
+				0879838D1C2CAD3400DEFB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087983911C2CAD3400DEFB05 /* PBXTargetDependency */,
+			);
+			name = MDUITests;
+			productName = MDUITests;
+			productReference = 0879838F1C2CAD3400DEFB05 /* MDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0879835D1C2CAD3300DEFB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WatanabeKatuiti;
+				TargetAttributes = {
+					087983641C2CAD3300DEFB05 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					087983831C2CAD3400DEFB05 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 087983641C2CAD3300DEFB05;
+					};
+					0879838E1C2CAD3400DEFB05 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 087983641C2CAD3300DEFB05;
+					};
+				};
+			};
+			buildConfigurationList = 087983601C2CAD3300DEFB05 /* Build configuration list for PBXProject "MD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0879835C1C2CAD3300DEFB05;
+			productRefGroup = 087983661C2CAD3300DEFB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				087983641C2CAD3300DEFB05 /* MD */,
+				087983831C2CAD3400DEFB05 /* MDTests */,
+				0879838E1C2CAD3400DEFB05 /* MDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087983631C2CAD3300DEFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0879837E1C2CAD3400DEFB05 /* LaunchScreen.storyboard in Resources */,
+				0879837B1C2CAD3400DEFB05 /* Assets.xcassets in Resources */,
+				087983791C2CAD3400DEFB05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087983821C2CAD3400DEFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0879838D1C2CAD3400DEFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087983611C2CAD3300DEFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087983761C2CAD3400DEFB05 /* DetailViewController.m in Sources */,
+				087983731C2CAD3400DEFB05 /* MasterViewController.m in Sources */,
+				0879836D1C2CAD3400DEFB05 /* AppDelegate.m in Sources */,
+				087983701C2CAD3400DEFB05 /* MD.xcdatamodeld in Sources */,
+				0879836A1C2CAD3400DEFB05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087983801C2CAD3400DEFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087983891C2CAD3400DEFB05 /* MDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0879838B1C2CAD3400DEFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087983941C2CAD3400DEFB05 /* MDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		087983861C2CAD3400DEFB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087983641C2CAD3300DEFB05 /* MD */;
+			targetProxy = 087983851C2CAD3400DEFB05 /* PBXContainerItemProxy */;
+		};
+		087983911C2CAD3400DEFB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087983641C2CAD3300DEFB05 /* MD */;
+			targetProxy = 087983901C2CAD3400DEFB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		087983771C2CAD3400DEFB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087983781C2CAD3400DEFB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0879837C1C2CAD3400DEFB05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0879837D1C2CAD3400DEFB05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		087983961C2CAD3400DEFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		087983971C2CAD3400DEFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		087983991C2CAD3400DEFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FujimidaiPress.MD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0879839A1C2CAD3400DEFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FujimidaiPress.MD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0879839C1C2CAD3400DEFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FujimidaiPress.MDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD.app/MD";
+			};
+			name = Debug;
+		};
+		0879839D1C2CAD3400DEFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FujimidaiPress.MDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD.app/MD";
+			};
+			name = Release;
+		};
+		0879839F1C2CAD3400DEFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FujimidaiPress.MDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		087983A01C2CAD3400DEFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FujimidaiPress.MDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087983601C2CAD3300DEFB05 /* Build configuration list for PBXProject "MD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087983961C2CAD3400DEFB05 /* Debug */,
+				087983971C2CAD3400DEFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087983981C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087983991C2CAD3400DEFB05 /* Debug */,
+				0879839A1C2CAD3400DEFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0879839B1C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0879839C1C2CAD3400DEFB05 /* Debug */,
+				0879839D1C2CAD3400DEFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0879839E1C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0879839F1C2CAD3400DEFB05 /* Debug */,
+				087983A01C2CAD3400DEFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0879836E1C2CAD3400DEFB05 /* MD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0879836F1C2CAD3400DEFB05 /* MD.xcdatamodel */,
+			);
+			currentVersion = 0879836F1C2CAD3400DEFB05 /* MD.xcdatamodel */;
+			path = MD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0879835D1C2CAD3300DEFB05 /* Project object */;
+}
