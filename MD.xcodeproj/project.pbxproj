@@ -18,6 +18,8 @@
 		087983891C2CAD3400DEFB05 /* MDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983881C2CAD3400DEFB05 /* MDTests.m */; };
 		087983941C2CAD3400DEFB05 /* MDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983931C2CAD3400DEFB05 /* MDUITests.m */; };
 		087983A31C2CB4F600DEFB05 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983A21C2CB4F600DEFB05 /* TestViewController.m */; };
+		087983A71C2D096F00DEFB05 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983A51C2D096F00DEFB05 /* Test2ViewController.m */; };
+		087983A81C2D096F00DEFB05 /* Test2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087983A61C2D096F00DEFB05 /* Test2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		087983951C2CAD3400DEFB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		087983A11C2CB4F600DEFB05 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		087983A21C2CB4F600DEFB05 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		087983A41C2D096F00DEFB05 /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		087983A51C2D096F00DEFB05 /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		087983A61C2D096F00DEFB05 /* Test2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 		0879835C1C2CAD3300DEFB05 = {
 			isa = PBXGroup;
 			children = (
+				087983A41C2D096F00DEFB05 /* Test2ViewController.h */,
+				087983A51C2D096F00DEFB05 /* Test2ViewController.m */,
+				087983A61C2D096F00DEFB05 /* Test2ViewController.xib */,
 				087983671C2CAD3400DEFB05 /* MD */,
 				087983871C2CAD3400DEFB05 /* MDTests */,
 				087983921C2CAD3400DEFB05 /* MDUITests */,
@@ -257,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0879837E1C2CAD3400DEFB05 /* LaunchScreen.storyboard in Resources */,
+				087983A81C2D096F00DEFB05 /* Test2ViewController.xib in Resources */,
 				0879837B1C2CAD3400DEFB05 /* Assets.xcassets in Resources */,
 				087983791C2CAD3400DEFB05 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +296,7 @@
 				087983761C2CAD3400DEFB05 /* DetailViewController.m in Sources */,
 				087983731C2CAD3400DEFB05 /* MasterViewController.m in Sources */,
 				0879836D1C2CAD3400DEFB05 /* AppDelegate.m in Sources */,
+				087983A71C2D096F00DEFB05 /* Test2ViewController.m in Sources */,
 				087983701C2CAD3400DEFB05 /* MD.xcdatamodeld in Sources */,
 				0879836A1C2CAD3400DEFB05 /* main.m in Sources */,
 			);
@@ -514,6 +524,7 @@
 				0879839A1C2CAD3400DEFB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0879839B1C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MDTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +533,7 @@
 				0879839D1C2CAD3400DEFB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0879839E1C2CAD3400DEFB05 /* Build configuration list for PBXNativeTarget "MDUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +542,7 @@
 				087983A01C2CAD3400DEFB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
