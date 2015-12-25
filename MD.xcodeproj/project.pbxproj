@@ -17,6 +17,7 @@
 		0879837E1C2CAD3400DEFB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0879837C1C2CAD3400DEFB05 /* LaunchScreen.storyboard */; };
 		087983891C2CAD3400DEFB05 /* MDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983881C2CAD3400DEFB05 /* MDTests.m */; };
 		087983941C2CAD3400DEFB05 /* MDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983931C2CAD3400DEFB05 /* MDUITests.m */; };
+		087983A31C2CB4F600DEFB05 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087983A21C2CB4F600DEFB05 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		0879838F1C2CAD3400DEFB05 /* MDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		087983931C2CAD3400DEFB05 /* MDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDUITests.m; sourceTree = "<group>"; };
 		087983951C2CAD3400DEFB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087983A11C2CB4F600DEFB05 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		087983A21C2CB4F600DEFB05 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				0879836B1C2CAD3400DEFB05 /* AppDelegate.h */,
+				087983A11C2CB4F600DEFB05 /* TestViewController.h */,
+				087983A21C2CB4F600DEFB05 /* TestViewController.m */,
 				0879836C1C2CAD3400DEFB05 /* AppDelegate.m */,
 				087983711C2CAD3400DEFB05 /* MasterViewController.h */,
 				087983721C2CAD3400DEFB05 /* MasterViewController.m */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087983A31C2CB4F600DEFB05 /* TestViewController.m in Sources */,
 				087983761C2CAD3400DEFB05 /* DetailViewController.m in Sources */,
 				087983731C2CAD3400DEFB05 /* MasterViewController.m in Sources */,
 				0879836D1C2CAD3400DEFB05 /* AppDelegate.m in Sources */,
